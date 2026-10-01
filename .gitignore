@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+public/api/vendor
+public/IMAGES/
+dist
+dist-ssr
+*.local
+
+# Local SMTP secrets (use server-config/*.example.php as templates)
+resco-mail-config.php
+server-config/resco-mail-config.php
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
